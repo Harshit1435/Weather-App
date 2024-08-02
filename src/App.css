@@ -1,0 +1,90 @@
+.box-Navbar{
+  width: 60vmax;
+  height: 100vh;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.box-Navbar>img{
+  display: flex;
+    margin: auto;
+    width: 10rem;
+
+}
+
+.search-box{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 10px;
+}
+.search-box div{
+  display: flex;
+    height: 32px;
+}
+
+.search-box>input{
+  border-radius: 11px;
+  height: 21px;
+  margin: 8px 3px;
+ 
+}
+.search-box>div>input{
+  border-radius: 7px
+
+}
+
+.search-box>div button{
+  background: none;
+    border: none;
+    margin-left: -30px;
+}
+.search-box>div button>img{
+  width: 1rem;
+}
+
+.temprature{
+  display: flex;
+    justify-content: center;
+    font-size:5rem;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 0px;
+
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+}
+.bottom>span p {
+  margin: auto;
+}
+
+.bottom>span{
+  display: flex;
+    flex-direction: column;
+}
+.bottom>span img{
+  display: flex;
+    margin: auto;
+    width: 6vw;
+    position: static;
+}
+.img{
+  display: flex;
+  margin: auto;
+  width: 180px;
+}
+.temprature{
+  position: relative;
+    top: -16px;
+
+}
+.location-Name{
+  display: flex;
+    flex-flow: row-reverse;
+    position: relative;
+    top: -38px;
+    margin: 0px 5px
+}
